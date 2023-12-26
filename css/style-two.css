@@ -1,0 +1,181 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 50%;
+    height: 55px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(29, 25, 59, 0.87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.a-head {
+    width: 100px;
+    height: 100%;
+    background-color: rgba(29, 25, 59, 0.87);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-head:hover {
+    transform: scale(1.1);
+    background-color: #060f63;
+}
+
+#a-heads {
+    width: 100px;
+    height: 100%;
+    background-color: rgba(29, 25, 59, 0.87);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a-heads:hover {
+    transform: scale(1.1);
+    background-color: #0099ff;
+}
+
+#a-restore {
+    height: 100px;
+    width: 300px;
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+body {
+    background-image: url(../img/map-russ.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.red-but {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 573px;
+    left: 280px;
+    z-index: 2;
+}
+
+.red-but2 {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 573px;
+    left: 430px;
+    z-index: 2;
+}
+
+.red-but3 {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 453px;
+    left: 289px;
+    z-index: 2;
+}
+
+.a-city {
+    width: 100%;
+    height: 100%;
+}
+
+.open-user {
+    display: flex;
+    height: 80%;
+    width: 40vh;
+    background-color: rgba(25, 16, 59, 0.911);
+    flex-direction: column;
+}
+
+.main-body {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание по горизонтали (с правой стороны) */
+    align-items: center; /* Выравнивание по вертикали по центру (по умолчанию) */
+    margin-left: auto;
+    z-index: 1;
+}
+
+.main-body1 {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание по горизонтали (с правой стороны) */
+    align-items: center; /* Выравнивание по вертикали по центру (по умолчанию) */
+    margin-left: auto;
+    z-index: 1;
+}
+
+.main-body2 {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание по горизонтали (с правой стороны) */
+    align-items: center; /* Выравнивание по вертикали по центру (по умолчанию) */
+    margin-left: auto;
+    z-index: 1;
+
+}
+
+.block-fam {
+    height: 60px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    border-bottom: solid 2px orange;
+    border-top: solid 2px orange;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-num {
+    background-color: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.black-a {
+    color: black;
+}
