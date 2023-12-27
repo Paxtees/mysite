@@ -6,14 +6,14 @@
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="css/norma.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/zzz.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/sadasda.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="slide navbar style.css">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <img src="img/zzz.png" alt="" class="nav-img">
+            <img src="img/xxx.png" alt="" class="nav-img">
             <ul class="nav-ul">
                 <li class="li-nav"><a href="indexxx.php" class="jopa">Главная</a></li>
                 <li class="li-nav"><a href="news.php" class="jopa">Новости</a></li>
